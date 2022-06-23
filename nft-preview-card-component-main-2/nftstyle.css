@@ -1,0 +1,185 @@
+body {
+  min-height: 100vh;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(53, 65, 128, 0.894293)), color-stop(74%, #b18790));
+  background: linear-gradient(90deg, rgba(53, 65, 128, 0.894293) 0%, #b18790 74%);
+  font-family: "Outfit", sans-serif;
+}
+
+body .container {
+  max-width: 20%;
+  min-width: 320px;
+  margin: auto;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .main {
+  padding: 22px;
+  height: auto;
+  background: -webkit-gradient(linear, left top, right top, color-stop(34%, rgba(156, 169, 238, 0.944713)), color-stop(93%, rgba(242, 191, 201, 0.958719)));
+  background: linear-gradient(90deg, rgba(156, 169, 238, 0.944713) 34%, rgba(242, 191, 201, 0.958719) 93%);
+  border-radius: 15px;
+  -webkit-box-shadow: 2px 3px 10px 8px rgba(15, 14, 15, 0.3);
+          box-shadow: 2px 3px 10px 8px rgba(15, 14, 15, 0.3);
+}
+
+body .container .main .main-img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+body .container .main .main-img img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+  opacity: 0.7;
+}
+
+body .container .main .main-img:after {
+  content: url(./images/icon-view.svg);
+  background: rgba(44, 52, 96, 0.947514);
+  position: absolute;
+  inset: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  border-radius: 6px;
+}
+
+body .container .main .main-img:hover::after {
+  opacity: 0.8;
+}
+
+body .container .main .title {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+body .container .main p {
+  color: white;
+}
+
+body .container .main-text-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0 15px 0;
+}
+
+body .container .main-text-wrapper .text-price, body .container .main-text-wrapper .text-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .main-text-wrapper .text-price img, body .container .main-text-wrapper .text-date img {
+  padding-right: 8px;
+}
+
+body .container .main-text-wrapper .text-price span {
+  color: white;
+}
+
+body .container .main-text-wrapper .text-date span {
+  color: white;
+}
+
+body .container hr {
+  background-color: white;
+  width: 100%;
+  border-style: none;
+  height: 1px;
+}
+
+body .container .text-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+  border-top: white;
+}
+
+body .container .text-footer img {
+  width: 8%;
+  height: 8%;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+body .container .text-footer .text-footer-name {
+  color: #5e7ca6;
+  font-weight: 500;
+}
+
+body .container .text-footer .name1 {
+  padding: 0 10px 0 15px;
+}
+
+body .container .text-footer .name2 {
+  color: white;
+}
+
+body .container .text-footer .name2:hover {
+  color: #00fff7;
+}
+
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 50px;
+  color: #8bacda;
+}
+
+body .attribution a {
+  color: white;
+}
+/*# sourceMappingURL=nftstyle.css.map */
