@@ -38,10 +38,11 @@ Your users should be able to: <br>
 <!-- ![](./design/00p2.png) -->
 
 - **_Custom Design_**
-  <img src="https://github.com/sookm/nft-preview-card-component-main/blob/main/design/ezgif.com-gif-maker.gif?raw=true" style="width:800px;"/>
-  <img src="https://github.com/sookm/nft-preview-card-component-main/blob/main/design/00p2.png?raw=true" style="width:800px;"/>
-  <!-- ![](./design/ezgif.com-gif-maker.gif) -->
-  <!-- ![](./design/00p2.png) -->
+
+<img src="https://github.com/sookm/nft-preview-card-component-main/blob/main/design/ezgif.com-gif-maker.gif?raw=true" style="width:800px;"/>
+<img src="https://github.com/sookm/nft-preview-card-component-main/blob/main/design/00p2.png?raw=true" style="width:800px;"/>
+    <!-- ![](./design/ezgif.com-gif-maker.gif) -->
+    <!-- ![](./design/00p2.png) -->
 
 ### _Links_
 
