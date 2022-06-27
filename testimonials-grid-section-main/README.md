@@ -54,7 +54,7 @@ Your users should be able to: <br>
   - How to order in Grid layout 
 
 ### _Useful resources_ 
-- repository I referred to <br>
+- repository that I referred to 
   - https://github.com/ishpaul777/Testimonial-grid/blob/main/index.html
   - https://github.com/Stv-devl/Testimonials-grid-section-main
 - resources <br>
