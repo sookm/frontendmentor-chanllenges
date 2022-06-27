@@ -1,6 +1,6 @@
 # _Frontend Mentor - Testimonials grid section_ 🙋‍
 
-_This is a solution to the_ [_Testimonials grid section on Frontend Mentor_](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7/hub/testimonials-grid-section-m97n_7VDP7).
+_This is a solution to the_ [_Testimonials grid section on Frontend Mentor_](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7).
 
 #### _Table of contents_
 
