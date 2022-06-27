@@ -61,3 +61,8 @@ https://github.com/Stv-devl/Testimonials-grid-section-main
 https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Grid_Layout/Line-based_placement_with_CSS_grid <br>
 https://www.youtube.com/watch?v=rg7Fvvl3taU
 
+### _Author_
+[turi](https://github.com/sookm)
+[turi](https://www.frontendmentor.io/profile/sookm)
+
+
