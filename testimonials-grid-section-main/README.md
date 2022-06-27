@@ -40,7 +40,7 @@ Your users should be able to: <br>
 
 📎[Link](https://sookm.github.io/frontendmentor-chanllenges/testimonials-grid-section-main/)
 
-## _My process_ 🙋‍♀️
+## _My process_ 
 
 ### _Built with_
 
