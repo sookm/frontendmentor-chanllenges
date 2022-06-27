@@ -48,9 +48,15 @@ Your users should be able to: <br>
 - Grid
 - HTML5
 
-### _Useful-resources_ 🙋‍♀️
-- repository I referred to
+### _What I learned_
+- CSS Grid
+  - Grid columns and rows 
+  - How to order in Grid layout 
+
+### _Useful resources_ 
+- repository I referred to <br>
 https://github.com/ishpaul777/Testimonial-grid/blob/main/index.html
-- resources 
-https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Grid_Layout/Line-based_placement_with_CSS_grid
+- resources <br>
+https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Grid_Layout/Line-based_placement_with_CSS_grid <br>
 https://www.youtube.com/watch?v=rg7Fvvl3taU
+
