@@ -26,7 +26,7 @@ Your users should be able to: <br>
 <img src="./design/desktop-design.jpg" style="width:800px;"/>
 <!-- ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg) -->
 
-### *Screenshot Solution*🙋‍♀️
+### _Screenshot Solution_
 
 - **_Desktop_**
 <img src="./images/desktop.jpg" style="width:800px;"/>
