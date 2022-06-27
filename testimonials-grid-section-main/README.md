@@ -46,8 +46,8 @@ Your users should be able to: <br>
 
 - CSS
 - HTML5
-- Grid
-- 
+- CSS Grid
+
 ### _What I learned_
 - CSS Grid
   - Grid columns and rows 
