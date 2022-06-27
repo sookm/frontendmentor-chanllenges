@@ -33,7 +33,7 @@ Your users should be able to: <br>
 <!-- ![](./design/0123.png) -->
 
 - **_Mobile_**
-<img src="./images/mobile-screenshot.png" style="width:200px;"/>
+<img src="./images/mobile-screenshot.png" style="width:300px;"/>
 <!-- ![](./design/00p2.png) -->
 
 ### _Links_
