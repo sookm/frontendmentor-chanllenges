@@ -59,7 +59,7 @@ Your users should be able to: <br>
   - https://github.com/Stv-devl/Testimonials-grid-section-main
 - resources <br>
   - [MDN docs - CSS Grid Layout](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Grid_Layout/Line-based_placement_with_CSS_grid)
-  - [youtube](https://www.youtube.com/watch?v=rg7Fvvl3taU)
+  - [youtube - Learn CSS Grid the easy way | Kevin Powell](https://www.youtube.com/watch?v=rg7Fvvl3taU)
 
 ### _Author_
 - [Github](https://github.com/sookm)
