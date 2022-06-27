@@ -6,7 +6,7 @@ _This is a solution to the_ [_Testimonials grid section on Frontend Mentor_](htt
 
 - [_Overview_](#overview)
   - [_The challenge_](#the-challenge)
-  - [_Screenshot-Solution_](#screenshot-solution)
+  - [_Screenshot Solution_](#screenshot-solution)
   - [_Links_](#links)
 - [_My process_](#my-process)
   - [_Built with_](#built-with)
@@ -26,7 +26,7 @@ Your users should be able to: <br>
 <img src="./design/desktop-design.jpg" style="width:800px;"/>
 <!-- ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg) -->
 
-### *Screenshot-Solution*🙋‍♀️
+### *Screenshot Solution*🙋‍♀️
 
 - **_Desktop_**
 <img src="./images/desktop.jpg" style="width:800px;"/>
