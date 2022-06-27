@@ -62,7 +62,7 @@ https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Grid_Layout/Line-based_placeme
 https://www.youtube.com/watch?v=rg7Fvvl3taU
 
 ### _Author_
-[turi](https://github.com/sookm)
-[turi](https://www.frontendmentor.io/profile/sookm)
+- [turi github](https://github.com/sookm)
+- [frontend mentor](https://www.frontendmentor.io/profile/sookm)
 
 
