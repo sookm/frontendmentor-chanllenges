@@ -56,6 +56,7 @@ Your users should be able to: <br>
 ### _Useful resources_ 
 - repository I referred to <br>
 https://github.com/ishpaul777/Testimonial-grid/blob/main/index.html
+https://github.com/Stv-devl/Testimonials-grid-section-main
 - resources <br>
 https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Grid_Layout/Line-based_placement_with_CSS_grid <br>
 https://www.youtube.com/watch?v=rg7Fvvl3taU
