@@ -21,8 +21,6 @@ body {
   margin: 30px;
 }
 
-
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -114,35 +112,42 @@ nav ul .space {
 
 .main-container {
   width: 100%;
-  padding: 20px 70px 20px 70px;
+  padding: 40px 60px 60px 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 80px;
+  flex-direction: row;
+  gap: 0px;
 }
-
+.main-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
 .main-img img {
-  width: 50%;
-  margin-top: 30px;
+  width: 60%;
+  margin-top: 20px;
 }
-
 
 .main-text {
-  height: 70%;
+  /* height: 70%; */
+  width: 50%;
+  padding-left: 100px;
 }
 
 .main-text-title {
   margin-top: 100px;
-  font-size: 58px;
+  font-size: 70px;
   font-weight: 700;
-  width: 389px;
+  width: 470px;
 }
 
 .main-text-description {
   font-size: 18px;
   font-weight: 400;
   width: 450px;
-  margin-top: 70px;
+  margin-top: 50px;
   margin-bottom: 76px;
   line-height: 1.5;
   color: var(--mediumGray);
@@ -159,7 +164,9 @@ nav ul .space {
 .sponsors > img {
   object-fit: contain;
 }
-
+.toggle-menu {
+  visibility: hidden;
+}
 @media (max-width: 1260px) {
   main {
     margin: 29px 0;
@@ -170,41 +177,54 @@ nav ul .space {
 
 @media (max-width: 1000px) {
   .container {
-    margin: 32px 20px;
-  }
-  main {
-    display: block;
-    text-align: center;
-    gap: 0;
+    /* position: relative; */
+    padding: 0px 0px;
   }
 
+  main {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    text-align: center;
+  }
   main .register {
     background-color: var(--almostBlack);
     color: var(--almostWhite);
     border: none;
     padding: 15px 20px;
   }
-
-  main {
+  .main-container {
     display: flex;
-    
+    justify-content: center;
     align-items: center;
+    flex-direction: column-reverse;
+    gap: 0px;
+    padding: 0px;
   }
-
+  .main-text {
+    /* height: 70%; */
+    width: 100%;
+    padding-left: 0px;
+  }
   .main-img {
-    width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     object-fit: contain;
-    content: url(/images/image-hero-mobile.png);
+    content: url(./images/image-hero-mobile.png);
     height: auto;
     margin-left: -20px;
     margin-right: -20px;
     margin-bottom: 60px;
     width: -webkit-fill-available;
   }
+  .main-img img {
+    width: 100%;
+  }
 
   .sponsors {
-    width: 300px;
-    margin-top: 45px;
+    width: 100%;
   }
 
   .sponsors > img {
@@ -213,16 +233,15 @@ nav ul .space {
   }
 
   .main-text-title {
-    font-size: 30px;
+    font-size: 50px;
     margin-top: 0;
     margin-bottom: 0;
     width: auto;
   }
 
   .main-text-description {
-    font-size: 14px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    margin: 20px 30px 40px 30px;
     width: auto;
   }
 
@@ -264,6 +283,20 @@ nav ul .space {
 }
 
 @media (max-width: 1000px) {
+  .toggle-menu {
+    visibility: visible;
+  }
+  .toggle-menu:hover > .toggle-list {
+    opacity: 1;
+    visibility: hidden;
+    position: relative;
+    top: 0;
+    left: 24px;
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    box-shadow: none;
+  }
   .open {
     display: inherit;
     position: fixed;
@@ -288,22 +321,26 @@ nav ul .space {
   }
 
   .toggle-list {
-    visibility: hidden;
-    display: flex;
+    opacity: 1;
+    flex: 1;
+    visibility: visible;
+    display: block;
     position: fixed;
     padding-top: 85px;
     inset: 0 0 0 100%;
     align-items: flex-start;
     flex-direction: column;
     transition: all 0.3s ease-in-out;
+    width: 500px;
   }
 
   .toggle-list::before {
-    content: "";
+    opacity: 1;
+    /* content: */
     position: absolute;
     top: 0;
     left: -100%;
-    width: 100%;
+    width: 50%;
     height: 100%;
     background-color: var(--almostBlack);
     transition: all 0.3s ease-in-out;
@@ -343,7 +380,7 @@ nav ul .space {
   .toggle-btn::after {
     content: "";
     position: absolute;
-    width: 20px;
+    width: 200px;
     height: 3px;
     background: var(--almostBlack);
     border-radius: 5px;
@@ -395,13 +432,11 @@ nav ul .space {
   }
 }
 
-
-
 .attribution {
-    font-size: 11px;
-    text-align: center;
-    margin-bottom: 5px;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
